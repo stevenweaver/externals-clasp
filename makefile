@@ -572,6 +572,7 @@ llvm-setup-debug:
 		../configure --enable-targets=x86_64 --enable-debug-symbols --enable-debug-runtime \
 		--prefix=$(CLASP_APP_RESOURCES_EXTERNALS_DEBUG_DIR) \
 		--with-gcc-toolchain=$(GCC_TOOLCHAIN) \
+		--with-python=$(PYTHON_EXECUTABLE) \
 		CC=$(GCC_EXECUTABLE) \
 		CXX=$(GXX_EXECUTABLE) \
 		CXXFLAGS="-static-libstdc++ -static-libgcc" \
@@ -586,6 +587,7 @@ llvm-setup-release:
 		../configure --enable-targets=x86_64  --enable-optimized --enable-assertions \
 		--prefix=$(CLASP_APP_RESOURCES_EXTERNALS_RELEASE_DIR) \
 		--with-gcc-toolchain=$(GCC_TOOLCHAIN) \
+		--with-python=$(PYTHON_EXECUTABLE) \
 		CC=$(GCC_EXECUTABLE) \
 		CXX=$(GXX_EXECUTABLE) \
 		CXXFLAGS="-static-libstdc++ -static-libgcc" \

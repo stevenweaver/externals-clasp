@@ -18,6 +18,11 @@ export PJOBS = 2
 export GCC_TOOLCHAIN = $(HOME)/local/gcc-4.8.3
 #export GCC_EXECUTABLE = <put something here if gcc is not $(GCC_TOOLCHAIN)/bin/gcc>
 #export GXX_EXECUTABLE = <put something here if g++ is not $(GCC_TOOLCHAIN)/bin/g++>
+
+#
+# This defines where python2.7 lives
+export PYTHON_EXECUTABLE = /usr/local/bin/python2.7
+
 #
 # ------- Only change if you know what you are doing -------
 #
