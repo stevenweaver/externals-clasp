@@ -804,6 +804,7 @@ boost-fresh:
 			--with-thread \
 			--with-regex \
 			--debug-configuration \
+			--disable-icu \
 			--ignore-site-config \
 			link=static \
 			install \
@@ -824,6 +825,7 @@ boost-build:
 			--with-thread \
 			--with-regex \
 			--debug-configuration \
+			--disable-icu \
 			--ignore-site-config \
 			link=static \
 			install \
@@ -844,6 +846,7 @@ boost-n:
 			--with-mpi \
 			--with-regex \
 			--with-thread \
+			--disable-icu \
 			--ignore-site-config \
 			link=static \
 			install )
